@@ -1,0 +1,25 @@
+{
+    "latex-workshop.chktex.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/*.aux": true,
+        "main.bbl": true,
+        "main.blg": true,
+        "main.fdb_latexmk": true,
+        "main.run.xml": true,
+        "main.bcf": true,
+        "main.fls": true,
+        "main.lof": true,
+        "main.log": true,
+        "main.lot": true,
+        "main.out": true,
+        "main.synctex.gz": true,
+        "main.toc": true,
+        "main.lol": true,
+        "main.synctex(busy)": true
+    },
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "git.ignoreLimitWarning": true
+}

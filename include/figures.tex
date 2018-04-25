@@ -1,0 +1,33 @@
+\chapter{Figures (Illustrationen)}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{images/kis}
+    \caption{Kaufland Logo.}
+    \small Das derzeitige Logo von Kaufland.
+    \label{fig-kis-big}
+\end{figure}
+
+\vspace{15pt} % Vertikaler Abstand
+
+\begin{figure}[H]
+    %\centering
+    \begin{subfigure}{.45\textwidth}
+      \centering
+      \includegraphics[width=.325\linewidth]{images/kis}
+      \caption{Kaufland Logo.}
+      \label{fig-kis}
+    \end{subfigure}%
+    \hspace{1em} % Horizontaler Abstand
+    \begin{subfigure}{.45\textwidth}
+      \centering
+      \includegraphics[width=.9\linewidth]{images/sitios}
+      \caption{SITIOS Logo.}
+      \label{fig-sitios}
+    \end{subfigure}
+
+    \centering
+    \caption{Mehrere Figures nebeneinander.}
+    \small Illustrationen die zusammenhängen können nebeneinander mit jeweils einer kurzen Beschreibung dargestellt werden. Diese werden in diesem Text referenziert. \newline (a) ist Rot. (b) ist Grau. % \newline erzwingt Zeilenumbruch
+    \label{fig-search}
+\end{figure}

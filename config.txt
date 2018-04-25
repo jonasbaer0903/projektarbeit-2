@@ -1,0 +1,29 @@
+"latex-workshop.latex.recipes": [
+	{
+		"name": "pdflatex, biber, pdflatex",
+		"tools": [
+			"pdflatex",
+			"biber",
+			"pdflatex"
+		]
+	}
+],
+"latex-workshop.latex.tools": [
+	{
+		"name": "pdflatex",
+		"command": "C:\\Users\\LDAP\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\miktex-pdflatex.exe",
+		"args": [
+		  "-synctex=1",
+		  "-interaction=nonstopmode",
+		  "-undump=pdflatex",
+		  "%DOCFILE%"
+		]
+	  },
+	  {
+		"name": "biber",
+		"command": "C:\\Users\\LDAP\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\biber.exe",
+		"args": [
+		  "%DOC%"
+		]
+	  }
+]

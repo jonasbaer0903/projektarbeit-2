@@ -1,0 +1,62 @@
+\usepackage[backend=biber,style=alphabetic,citestyle=authoryear ]{biblatex}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[]{hyperref}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{acronym}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{blindtext}
+\usepackage{courier}
+\usepackage{comment}
+\usepackage{pdfpages}
+\usepackage{subcaption} 
+
+\newcommand*{\todo}[1]{\colorbox{yellow}{\parbox{1\linewidth} {TODO: #1}}} % Yellow TODO box u.A. https://tex.stackexchange.com/a/319000/129441
+
+\renewcommand*{\headfont}{\normalfont}
+%\renewcommand*{\multicitedelim}{\addsemicolon\space}
+\renewcommand*{\headrulewidth}{0pt}
+\renewcommand*{\arraystretch}{1.5}
+\newcommand{\code}{\texttt} % code in monospace font, wont hyphenate https://tex.stackexchange.com/a/36031/129441
+
+\newcommand{\compcite}{\parencite[vgl.][]}
+
+\setlength{\parskip}{1.5ex}
+
+\MakeOuterQuote{"}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  urlcolor=cyan
+}
+
+% Damit refs automatisch verlinkt werden und "Abb. 1" generiert wird
+\usepackage[ngerman]{cleveref}
+
+% "Tabelle 1" wird z.B. zu "Tab. 1" ge�ndert
+\addto\captionsngerman{
+    \crefname{chapter}{kap.}{kap.}
+    \Crefname{chapter}{Kap.}{Kap.}
+    \crefname{subsubsection}{abs.}{abs.}
+    \Crefname{subsubsection}{Abs.}{Abs.}
+    \crefname{subsection}{abs.}{abs.}
+    \Crefname{subsection}{Abs.}{Abs.}
+    \crefname{section}{abs.}{abs.}
+    \Crefname{section}{Abs.}{Abs.}
+    \crefname{figure}{abb.}{abb.}
+    \Crefname{figure}{Abb.}{Abb.}
+    \crefname{table}{tab.}{tab.}
+    \Crefname{table}{Tab.}{Tab.}
+    \renewcommand{\figurename}{Abb.}
+  	\renewcommand{\tablename}{Tab.}
+}

@@ -1,0 +1,7 @@
+main.*
+!main.tex
+!main.pdf
+
+uebung.*
+uebung.tex
+!uebung.pdf

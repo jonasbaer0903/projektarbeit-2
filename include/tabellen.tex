@@ -1,0 +1,65 @@
+\chapter{Tabellen}
+
+\section{Tabelle ohne Spalten}
+
+\begin{tabular}{lcr}
+    Spalte 1 & Spalte 2 & Spalte 3 \\
+    1 & 2 & 3 \\
+\end{tabular}
+
+\section{Tabelle mit horizontalen Linien}
+
+\begin{tabular}{l*{6}{c}r}
+    \toprule
+    Team              & P & W & D & L & F  & A & Pts \\
+    \midrule
+    Manchester United & 6 & 4 & 0 & 2 & 10 & 5 & 12  \\
+    Celtic            & 6 & 3 & 0 & 3 &  8 & 9 &  9  \\
+    Benfica           & 6 & 2 & 1 & 3 &  7 & 8 &  7  \\
+    FC Copenhagen     & 6 & 2 & 1 & 3 &  5 & 8 &  7  \\
+    \bottomrule
+\end{tabular}
+
+\section{Tabelle mit offener Seite}
+
+\begin{center}
+    \begin{tabular}{ | l | c | r }
+      \hline
+      1 & 2 & 3 \\ \hline
+      4 & 5 & 6 \\ \hline
+      7 & 8 & 9 \\
+      \hline
+    \end{tabular}
+  \end{center}
+
+\section{Tabelle von Niklas' PA}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.25\linewidth}|p{0.7\linewidth}|}
+      \hline
+      Schlüsselwort & Beschreibung \\ \hline
+      \code{SELECT} & Selektiert einen odere mehrere Datensätze aus einer Tabelle. \\
+      \code{INSERT} & Fügt einen neuen Datensatz in eine Tabelle ein. \\
+      \code{UPDATE} & Verändert Daten bereits bestehender Datensätze in einer Tabelle. \\
+      \code{DELETE} & Löscht einen oder mehrere bestehenden Datensätze aus einer Tabelle. \\
+      \code{(INNER) JOIN}   & Fügt Abfragen von zwei oder mehreren Tabellen zusammen.
+            Auf das Schlüsselwort \code{JOIN} folgt nach dem Tabellennamen das Schlüsselwort
+            \code{ON}. \\
+      \code{ON} & Auf das Schlüsselwort folgt ein Vergleich. Zeilen die diesem Vergleich
+            entsprechen, werden miteinander gejoint. Nur erfolgreich gejointe Zeilen werden
+            selektiert, außer es wird ein \code{RIGHT/LEFT JOIN} benutzt. \\
+      \code{RIGHT/LEFT JOIN} & Erfüllt die selbe Aufgabe wie der \code{INNER JOIN}.
+            Je nach Schlüsselwort, werden auch Zeilen aus der Tabelle die rechts/links
+            von dem Join selektiert, die nicht dem Vergleich hinter \code{ON} entsprechen. \\
+      \hline
+      \end{tabular}
+      \caption{Auswahl diverser SQL Schlüsselwörter}
+      \small{Die Tabelle zeigt in der linken Spalte die Schlüsselwörter und auf
+      der rechten Seite die dazu gehörigen Beschreibungen.}
+      \label{sql-keywords}
+\end{table}
+
+Referenzierung von der \Cref{sql-keywords} innerhalb eines Fließtexts.
+
+Da die Erstellung von Tabellen kompliziert ist, kann man auf \href{https://www.tablesgenerator.com/}{www.tablesgenerator.com} sich eine Tabelle erstellen. Dieses \href{https://ei.hs-duesseldorf.de/personen/braun/lehre/Documents/LaTeX%20SS15/Latex%2010%20-%20Tabellen.pdf}{Skript} zeigt weitere Tabellenbefehle.

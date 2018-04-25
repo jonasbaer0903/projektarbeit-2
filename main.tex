@@ -1,0 +1,42 @@
+\documentclass[a4paper, 12pt, oneside, openany]{scrbook}
+
+\input{settings.tex}
+% Bibliotheksdatei
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+\frontmatter
+
+\input{include/title.tex}
+\input{include/sperrvermerk.tex}
+\input{include/eigenleistung.tex}
+
+% Einzelne PDF-Seite hinzufügen im Dokument.
+% Erforderlich für den Ablauf der Praxisphase.
+\includepdf[pages={1}]{include/Ablauf-Praxisphase1.pdf}
+
+\tableofcontents
+
+\input{include/abbreviation.tex}
+
+\mainmatter
+
+% Einzelne Unterdateien in die Datei einlesen.
+\input{include/tabellen.tex}
+\input{include/auflistung.tex}
+\input{include/figures.tex}
+\input{include/zitate.tex}
+
+\nocite{*}
+
+\backmatter
+
+\sloppy
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Literatur}
+\printbibliography
+
+\end{document}
