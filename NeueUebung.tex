@@ -1,0 +1,48 @@
+\documentclass[a4paper, 12pt, oneside, openany]{scrbook}
+
+\input{settings.tex}
+
+\begin{document}
+
+\frontmatter
+
+
+
+
+\mainmatter
+
+\chapter{Kapitel}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.15\textwidth]{images/kis}
+    \caption{Kaufland Logo.}
+    \small Das derzeitige Logo von Kaufland.
+    \label{fig-kis-small}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c p{5cm}}
+        \toprule
+        Team & Überschrift 1 & Überschrift 2 & Beschreibung \\
+        \midrule
+        Eins & Zwei & Dies ist ein sehr langer Textder in die nächste Zeile rut-schen soll. &  \\
+        Vier & Fünf & Falls dies nicht passiert, istdie Tabelle falsch konfigu-riert. \\
+        \bottomrule
+    \end{tabular}
+    \caption{Dies ist eine Beschreibung.}
+    \label{tab-test}
+\end{table}
+Hier seht ihr \Cref{fig-kis-fig-kis-small} und \Cref{tab-test}.
+
+\nocite{*}
+
+\backmatter
+
+\sloppy
+
+\cleardoublepage
+\phantomsection
+
+\end{document}
