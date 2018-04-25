@@ -2,10 +2,10 @@
 ["biber NeueUebung"] 0 "NeueUebung.bcf" "NeueUebung.bbl" "NeueUebung" 0
   "NeueUebung.bcf" 0 -1 0 ""
   (generated)
-  "NeueUebung.blg"
   "NeueUebung.bbl"
-["pdflatex"] 1524658904 "/Users/developermac/Downloads/latex-schulung-master@0aca93cac70/NeueUebung.tex" "NeueUebung.pdf" "NeueUebung" 1524658904
-  "/Users/developermac/Downloads/latex-schulung-master@0aca93cac70/NeueUebung.tex" 1524658902 962 2434709a7c1e350d57a74a132ba0a85b ""
+  "NeueUebung.blg"
+["pdflatex"] 1524663166 "/Users/developermac/Downloads/latex-schulung-master@0aca93cac70/NeueUebung.tex" "NeueUebung.pdf" "NeueUebung" 1524663166
+  "/Users/developermac/Downloads/latex-schulung-master@0aca93cac70/NeueUebung.tex" 1524663164 936 d8a11de1f9f869b8970bfdb7b655b3ef ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1480098696 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -124,17 +124,17 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1524642889 4129592 47d0468c020a4c43e89f32fee225accb ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "NeueUebung.aux" 1524658904 8 a94a2480d3289e625eea47cd1b285758 ""
+  "NeueUebung.aux" 1524663166 8 a94a2480d3289e625eea47cd1b285758 ""
   "NeueUebung.bbl" 0 -1 0 "biber NeueUebung"
   "NeueUebung.out" 0 -1 0 ""
   "NeueUebung.run.xml" 0 -1 0 ""
-  "NeueUebung.tex" 1524658902 962 2434709a7c1e350d57a74a132ba0a85b ""
+  "NeueUebung.tex" 1524663164 936 d8a11de1f9f869b8970bfdb7b655b3ef ""
   "images/kis.png" 1524577320 591 5398947aee04db596162214324525b00 ""
   "settings.tex" 1524577320 1786 54ffe1197ea0a32c9298ee1b605751f9 ""
   (generated)
-  "NeueUebung.aux"
   "NeueUebung.pdf"
-  "NeueUebung.bcf"
-  "NeueUebung.log"
   "NeueUebung.out"
   "NeueUebung.run.xml"
+  "NeueUebung.aux"
+  "NeueUebung.log"
+  "NeueUebung.bcf"
